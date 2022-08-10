@@ -1,0 +1,45 @@
+header {
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: center;
+    align-items: center;
+}
+.cliker{
+    font-size: 200px;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+.clik{
+    font-size: 200px;
+    margin-top: 100px;
+    margin-left: 34px;
+    margin-bottom: 0px;
+}
+main {
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+}
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	background-color:#ffffff;
+	border:2px solid #0e0e0e;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:28px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+    margin: 24px;
+    text-align: center;
+}
+.myButton:active {
+	position:relative;
+	top:3px;
+}
